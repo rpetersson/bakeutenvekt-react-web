@@ -1,40 +1,47 @@
 import "./App.css";
 import ingredients_data from "./data/ingredients_data_g_per_ml.json";
+import React from "react";
 
 function calculateVolume() {
-  var ingrediense_value = document.getElementById("ingredienses").value;
-  console.log("Button pressed:" + ingrediense_value);
+  // volume (in dl) = mass (in g) / density (in g/ml) / 100
+  var ingrediense_value = document.getElementById("ingredientSelect").value;
+  var form_gram = document.getElementById("form_gram").value
+  var volumeInDl =  (form_gram / ingrediense_value) / 100
+  var resultDiv = document.getElementById("result")
+  resultDiv.textContent = `${volumeInDl} dl`
 }
-
-function generateSelectItems() {
-  const select = document.getElementById("ingredienses");
-  for (let index = 0; index < ingredients_data.ingredients.length; index++) {
-    const optionElement = document.createElement("option");
-    optionElement.value = ingredients_data.ingredients[index].density;
-    optionElement.textContent = ingredients_data.ingredients[index].name;
-    select.appendChild(optionElement);
-  }
-}
-
-generateSelectItems()
 
 function App() {
-  
+  const [selectedIngredient, setSelectedIngredient] = React.useState("");
+
+  // Create an array of <option> elements based on the data
+  const ingredientOptions = ingredients_data.ingredients.map((ingredient) => (
+    <option key={ingredient.name} value={ingredient.density}>
+      {ingredient.name}
+    </option>
+  ));
+
+  function handleIngredientChange(event) {
+    calculateVolume()
+    setSelectedIngredient(event.target.value);
+  }
+
   return (
-    
-    
     <div className="App">
       <header className="App-header"></header>
       <main>
         <form name="calculator_form">
-          <select id="ingredienses" name="ingredienses">
+          <select
+            id="ingredientSelect"
+            value={selectedIngredient}
+            onChange={handleIngredientChange}
+          >
+            <option value="">Select an ingredient</option>
+            {ingredientOptions}
           </select>
-          <input type="text" placeholder="Antal gram"></input>
-          <button type="button" onClick={calculateVolume}>
-            submit
-          </button>
+          <input type="text" placeholder="Antal gram" id='form_gram' onChange={handleIngredientChange}></input>
         </form>
-        <div className="result">Result</div>
+        <div id="result">Result</div>
       </main>
     </div>
   );
