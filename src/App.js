@@ -45,7 +45,7 @@ function App() {
       <header className="App-header"></header>
       <main>
         <form name="calculator_form">
-        <input type="text" placeholder="Antal gram" id='form_gram' onChange={handleIngredientChange}></input>
+        <input type="text" placeholder="Grams" id='form_gram' onChange={handleIngredientChange}></input>
           <select
             id="ingredientSelect"
             value={selectedIngredient}
@@ -57,7 +57,7 @@ function App() {
           </select>
           
         </form>
-        <div id="result">0</div>
+        <div id="result">0</div>+
         <div id="msk">0</div>
       </main>
     </div>
