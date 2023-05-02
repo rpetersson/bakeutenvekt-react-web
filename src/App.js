@@ -10,7 +10,7 @@ function omvandlare(volumeInDl) {
   var mskDiv = document.getElementById("msk")
   mskDiv.textContent = `${msk} tbsp`
   var resultDiv = document.getElementById("result")
-  resultDiv.textContent = `${hela} dl`
+  resultDiv.textContent = `${hela} dl +`
 }
 
 
@@ -57,7 +57,7 @@ function App() {
           </select>
           
         </form>
-        <div id="result">0</div>+
+        <div id="result">0</div>
         <div id="msk">0</div>
       </main>
     </div>
