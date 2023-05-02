@@ -19,7 +19,7 @@ function calculateVolume() {
   var ingrediense_value = document.getElementById("ingredientSelect").value;
   var form_gram = document.getElementById("form_gram").value
   var volumeInDl =  (form_gram / ingrediense_value) / 100
-  var resultDiv = document.getElementById("result")
+  //var resultDiv = document.getElementById("result")
   //resultDiv.textContent = `${volumeInDl} dl`
   omvandlare(volumeInDl)
 }

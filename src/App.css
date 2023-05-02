@@ -20,3 +20,18 @@ main {
 #result {
   font-size: xx-large
 }
+
+input[type=text] {
+  padding: 8 20px;
+  margin: 8px 0;
+  width: 100px;
+  font-size: calc(10px + 2vmin);
+}
+
+#ingredientSelect {
+  padding: 8 20px;
+  margin: 8px 0;
+  width: 200;
+  font-size: calc(10px + 2vmin);
+
+}
