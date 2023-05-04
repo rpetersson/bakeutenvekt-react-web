@@ -2,9 +2,14 @@
   text-align: center;
 }
 
+img {
+  border-radius: 10%;
+  height: 140px;
+}
+
 main {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,13 +30,16 @@ input[type=text] {
   padding: 8 20px;
   margin: 8px 0;
   width: 100px;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5 + 2vmin);
 }
 
 #ingredientSelect {
   padding: 8 20px;
   margin: 8px 0;
   width: 200;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5 + 2vmin);
+}
 
+#footer {
+  height: 5vh;
 }

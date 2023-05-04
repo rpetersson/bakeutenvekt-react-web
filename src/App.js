@@ -24,6 +24,7 @@ function calculateVolume() {
   omvandlare(volumeInDl)
 }
 
+const appleAppStoreLink = 'https://apps.apple.com/us/app/bake-without-a-weight/id1608678621'
 
 function App() {
   const [selectedIngredient, setSelectedIngredient] = React.useState("");
@@ -44,6 +45,7 @@ function App() {
     <div className="App">
       <header className="App-header"></header>
       <main>
+        <div id="logo"><a href={appleAppStoreLink}><img src={require('./img/logo.png')} alt="bake-without-a-weight-logo" /></a></div>
         <form name="calculator_form">
         <input type="text" placeholder="Grams" id='form_gram' onChange={handleIngredientChange}></input>
           <select
@@ -51,15 +53,14 @@ function App() {
             value={selectedIngredient}
             onChange={handleIngredientChange}
           >
-            
             <option value="">Select an ingredient</option>
             {ingredientOptions}
           </select>
-          
         </form>
         <div id="result">0</div>
         <div id="msk">0</div>
       </main>
+      <div id="footer"><p>Download the app to your iPhone  <a href={appleAppStoreLink}>here</a></p></div>
     </div>
   );
 }
