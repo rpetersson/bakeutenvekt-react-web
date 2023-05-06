@@ -1,6 +1,13 @@
 import "./App.css";
 import ingredients_data from "./data/ingredients_data_g_per_ml.json";
 import React from "react";
+import TagManager from 'react-gtm-module'
+const tagManagerArgs = {
+  gtmId: 'G-1ZNZJ23GB7'
+}
+
+TagManager.initialize(tagManagerArgs)
+
 
 function omvandlare(volumeInDl) {
   let hela = Math.trunc(volumeInDl);
@@ -44,6 +51,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
+
       <main>
         <div id="logo"><a href={appleAppStoreLink}><img src={require('./img/logo.png')} alt="bake-without-a-weight-logo" /></a></div>
         <form name="calculator_form">
