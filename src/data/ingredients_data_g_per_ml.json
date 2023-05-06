@@ -9,16 +9,8 @@
             "name": "All-purpose flour"
         },
         {
-            "density": 1.04,
-            "name": "Almond extract"
-        },
-        {
             "density": 0.67,
             "name": "Almond flour"
-        },
-        {
-            "density": 1.57,
-            "name": "Baking chocolate"
         },
         {
             "density": 0.641,
@@ -45,60 +37,12 @@
             "name": "Brown sugar"
         },
         {
-            "density": 0.911,
-            "name": "Butter"
-        },
-        {
-            "density": 1,
-            "name": "Butter flavoring"
-        },
-        {
-            "density": 1.01,
-            "name": "Buttermilk"
-        },
-        {
             "density": 0.51,
             "name": "Cake flour"
         },
         {
-            "density": 0.55,
-            "name": "Cake improver"
-        },
-        {
-            "density": 0.89,
-            "name": "Canned coconut milk"
-        },
-        {
-            "density": 0.85,
-            "name": "Chocolate chips"
-        },
-        {
-            "density": 0.72,
-            "name": "Chocolate sprinkles"
-        },
-        {
-            "density": 0.79,
-            "name": "Chopped dates"
-        },
-        {
             "density": 1.04,
             "name": "Cinnamon"
-        },
-        {
-            "density": 1.66,
-            "name": "Citric acid"
-        },
-        {
-            "density": 0.59,
-            "name": "Cocoa powder"
-        },
-        {
-            "density": 0.92,
-            "name": "Coconut oil"
-        },
-        {
-            "density": 0.56,
-            "name": "Confectioners' sugar"
         },
         {
             "density": 0.567,
@@ -109,60 +53,20 @@
             "name": "Corn syrup"
         },
         {
-            "density": 0.54,
-            "name": "Cornmeal"
-        },
-        {
             "density": 0.57,
             "name": "Cornstarch"
-        },
-        {
-            "density": 0.97,
-            "name": "Cream cheese"
-        },
-        {
-            "density": 0.98,
-            "name": "Cream of tartar"
         },
         {
             "density": 0.9,
             "name": "Dark brown sugar"
         },
         {
-            "density": 0.82,
-            "name": "Dark chocolate chips"
-        },
-        {
-            "density": 0.95,
-            "name": "Dark rum"
-        },
-        {
-            "density": 1.03,
-            "name": "Eggs"
-        },
-        {
-            "density": 0.95,
-            "name": "Gelatin"
-        },
-        {
-            "density": 0.78,
-            "name": "Ginger snaps"
-        },
-        {
             "density": 0.7,
             "name": "Graham cracker crumbs"
         },
         {
-            "density": 0.63,
-            "name": "Graham crackers"
-        },
-        {
             "density": 0.849,
             "name": "Granulated sugar"
-        },
-        {
-            "density": 0.85,
-            "name": "Ground allspice"
         },
         {
             "density": 1.57,
@@ -177,16 +81,8 @@
             "name": "Ground cloves"
         },
         {
-            "density": 1.13,
-            "name": "Ground ginger"
-        },
-        {
             "density": 0.95,
             "name": "Ground nutmeg"
-        },
-        {
-            "density": 0.5,
-            "name": "Guar gum"
         },
         {
             "density": 1.01,
@@ -201,64 +97,16 @@
             "name": "Instant yeast"
         },
         {
-            "density": 1.04,
-            "name": "Lemon extract"
-        },
-        {
-            "density": 1.05,
-            "name": "Lemon juice"
-        },
-        {
-            "density": 0.54,
-            "name": "Lemon zest"
-        },
-        {
             "density": 1.33,
             "name": "Light corn syrup"
-        },
-        {
-            "density": 1.05,
-            "name": "Lime juice"
-        },
-        {
-            "density": 0.54,
-            "name": "Lime zest"
         },
         {
             "density": 1.37,
             "name": "Maple syrup"
         },
         {
-            "density": 0.92,
-            "name": "Margarine"
-        },
-        {
             "density": 0.56,
             "name": "Meringue powder"
-        },
-        {
-            "density": 1.03,
-            "name": "Milk"
-        },
-        {
-            "density": 1.03,
-            "name": "Mint extract"
-        },
-        {
-            "density": 1.46,
-            "name": "Molasses"
-        },
-        {
-            "density": 1.05,
-            "name": "Orange extract"
-        },
-        {
-            "density": 1.05,
-            "name": "Orange juice"
-        },
-        {
-            "density": 0.7,
-            "name": "Orange zest"
         },
         {
             "density": 0.43,
@@ -297,10 +145,6 @@
             "name": "Pumpkin pie spice"
         },
         {
-            "density": 1.08,
-            "name": "Pumpkin puree"
-        },
-        {
             "density": 0.65,
             "name": "Pumpkin seeds"
         },
@@ -329,10 +173,6 @@
             "name": "Sesame seeds"
         },
         {
-            "density": 0.92,
-            "name": "Shortening"
-        },
-        {
             "density": 0.35,
             "name": "Shredded coconut"
         },
@@ -347,14 +187,6 @@
         {
             "density": 0.567,
             "name": "Tapioca flour"
-        },
-        {
-            "density": 1.48,
-            "name": "Unsweetened chocolate"
-        },
-        {
-            "density": 1.065,
-            "name": "Vanilla extract"
         },
         {
             "density": 0.92,
@@ -375,18 +207,6 @@
         {
             "density": 1.01,
             "name": "White vinegar"
-        },
-        {
-            "density": 0.57,
-            "name": "Whole wheat flour"
-        },
-        {
-            "density": 0.5,
-            "name": "Xanthan gum"
-        },
-        {
-            "density": 1.03,
-            "name": "Yogurt"
         }
     ]
 }
