@@ -50,7 +50,16 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <header className="App-header">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6NFRLP65XC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6NFRLP65XC');
+</script>
+      </header>
 
       <main>
         <div id="logo"><a href={appleAppStoreLink}><img src={require('./img/logo.png')} alt="bake-without-a-weight-logo" /></a></div>
