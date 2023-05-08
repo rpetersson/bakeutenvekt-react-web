@@ -2,12 +2,10 @@ import "./App.css";
 import ingredients_data from "./data/ingredients_data_g_per_ml.json";
 import React from "react";
 import TagManager from 'react-gtm-module'
+
 const tagManagerArgs = {
   gtmId: 'G-6NFRLP65XC'
 }
-
-TagManager.initialize(tagManagerArgs)
-
 
 function omvandlare(volumeInDl) {
   let hela = Math.trunc(volumeInDl);
@@ -34,6 +32,8 @@ function calculateVolume() {
 const appleAppStoreLink = 'https://apps.apple.com/us/app/bake-without-a-weight/id1608678621'
 
 function App() {
+  //Google tag init
+  TagManager.initialize(tagManagerArgs)
   const [selectedIngredient, setSelectedIngredient] = React.useState("");
 
   // Create an array of <option> elements based on the data
@@ -51,14 +51,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6NFRLP65XC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6NFRLP65XC');
-</script>
       </header>
 
       <main>
