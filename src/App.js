@@ -3,7 +3,7 @@ import ingredients_data from "./data/ingredients_data_g_per_ml.json";
 import React from "react";
 import TagManager from 'react-gtm-module'
 const tagManagerArgs = {
-  gtmId: 'G-1ZNZJ23GB7'
+  gtmId: 'G-6NFRLP65XC'
 }
 
 TagManager.initialize(tagManagerArgs)
