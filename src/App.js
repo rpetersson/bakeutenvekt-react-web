@@ -51,6 +51,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6103374330199115"
+     crossorigin="anonymous"></script>
       </header>
 
       <main>
